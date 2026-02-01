@@ -22,6 +22,14 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-shrink: 10;
 }
+
+.lomake{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+
 
