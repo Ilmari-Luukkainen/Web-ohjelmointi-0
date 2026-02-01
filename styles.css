@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: orange;
+    text-decoration-color: orange;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#container > *{
+    background-color: green;
+}
+
+#container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 10;
+}
+
